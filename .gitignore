@@ -1,0 +1,13 @@
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# General purpose ignores
+*.log
+tmp/
