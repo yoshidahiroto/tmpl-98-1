@@ -4,7 +4,7 @@
 	margin: 0px;
 }
 body {
-	font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-family: 'Noto Sans JP', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	text-align: center;
 	-webkit-text-size-adjust: 100%;
 }
@@ -15,7 +15,7 @@ body p {
 img {
 	border-style: none;
 	max-width: 100%;
-	height: auto;
+	h
 	vertical-align: bottom;
 }
 #menu_button {
@@ -223,24 +223,6 @@ article a:visited {
 	clear: both;
 	border-bottom: 1px solid #CCCCCC;
 }
-#block7 {
-	clear: both;
-/* 	border-bottom: 1px solid #CCCCCC; */
-}/* footer に border が設定されているので footer 直前の #block の border はコメントアウト */
-#block8 {
-	clear: both;
-	border-bottom: 1px solid #CCCCCC;
-}
-#block9 {
-	clear: both;
-	border-bottom: 1px solid #CCCCCC;
-}
-#block10 {
-	clear: both;
-	border-bottom: 1px solid #CCCCCC;
-}
-
-
 
 #content2 {
 	padding-top: 40px; /* slide_control 下部 */
@@ -272,32 +254,43 @@ article a:visited {
 	margin-right: 5px;
 	margin-left: 5px;
 }
-#content7 {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
-#content8 {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
-#content9 {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
-#content10 {
-	padding-top: 80px;
-	padding-bottom: 80px;
-	margin-right: 5px;
-	margin-left: 5px;
+
+.pastor-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
 }
 
+.card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
 
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+}
+
+.card .role {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
 
 /* parts START */
 /* parts1 parts2 width 500px */
