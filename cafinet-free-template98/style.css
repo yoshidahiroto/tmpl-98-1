@@ -488,18 +488,14 @@ header + img {
 }
 
 #nav_pc > #site_title_pc {
-    float: left;	
+    float: left;
     width: 20%;
 }
-#nav_pc > #nav_left {
-    float: left;
-    width: 40%;
-    text-align: right;
-}
-#nav_pc > #nav_right {
-    float: left;	
-    width: 40%;
-	text-align: left;
+
+#nav_pc > nav {
+    float: right;
+    width: 80%;
+	text-align: right;
 }
 
 #nav_pc > nav {
