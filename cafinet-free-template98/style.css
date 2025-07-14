@@ -483,6 +483,10 @@ header {
 	height: 70px;
 }
 
+header + img {
+	margin-top: 70px;
+}
+
 #nav_pc > #site_title_pc {
     float: left;	
     width: 20%;
