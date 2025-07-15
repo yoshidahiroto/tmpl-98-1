@@ -3,6 +3,10 @@
 * {
 	margin: 0px;
 }
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	font-family: 'Noto Sans JP', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	text-align: center;
@@ -203,6 +207,7 @@ article a:visited {
 
 
 
+#home,
 #about,
 #meetings,
 #blog,
@@ -219,11 +224,7 @@ article a:visited {
     justify-content: center;
 }
 
-#content2 {
-	padding-bottom: 80px;
-	margin-right: 5px;
-	margin-left: 5px;
-}
+
 #content3 {
 	padding-bottom: 80px;
 	margin-right: 5px;
@@ -462,6 +463,10 @@ footer a:visited {
 
 
 @media only screen and (min-width: 1000px) { /* js ブレークポイント[1000] */
+html {
+	scroll-padding-top: 70px;
+}
+
 #menu_button {
 	display: none;
 	color: #D0D0D0;
