@@ -257,9 +257,9 @@ article a:visited {
 
 .pastor-cards {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     gap: 20px;
-    justify-content: center;
+    align-items: center;
 }
 
 .card {
@@ -267,8 +267,10 @@ article a:visited {
     border: 1px solid #ddd;
     border-radius: 8px;
     padding: 20px;
-    width: 300px;
+    width: 80%;
+    max-width: 600px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: left;
 }
 
 .card h3 {
