@@ -203,53 +203,43 @@ article a:visited {
 
 
 
-#about {
-	clear: both;
-	border-bottom: 1px solid #CCCCCC;
-}
-#meetings {
-	clear: both;
-	border-bottom: 1px solid #CCCCCC;
-}
-#blog {
-	clear: both;
-	border-bottom: 1px solid #CCCCCC;
-}
-#gospel {
-	clear: both;
-	border-bottom: 1px solid #CCCCCC;
-}
+#about,
+#meetings,
+#blog,
+#gospel,
 #access {
 	clear: both;
 	border-bottom: 1px solid #CCCCCC;
+    min-height: 100vh;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #content2 {
-	padding-top: 40px; /* slide_control 下部 */
 	padding-bottom: 80px;
 	margin-right: 5px;
 	margin-left: 5px;
 }
 #content3 {
-	padding-top: 80px;
 	padding-bottom: 80px;
 	margin-right: 5px;
 	margin-left: 5px;
 }
 #content4 {
-	padding-top: 80px;
 	padding-bottom: 80px;
 	margin-right: 5px;
 	margin-left: 5px;
 }
 #content5 {
-	padding-top: 80px;
 	padding-bottom: 80px;
 	margin-right: 5px;
 	margin-left: 5px;
 }
 #content6 {
-	padding-top: 80px;
 	padding-bottom: 80px;
 	margin-right: 5px;
 	margin-left: 5px;
