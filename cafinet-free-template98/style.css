@@ -268,9 +268,30 @@ article a:visited {
     border-radius: 8px;
     padding: 20px;
     width: 80%;
-    max-width: 600px;
+    max-width: 800px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     text-align: left;
+    display: flex;
+    gap: 20px;
+}
+
+.card-main {
+    width: 30%;
+}
+
+.card-details {
+    width: 70%;
+}
+
+@media only screen and (max-width: 768px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .card-main,
+    .card-details {
+        width: 100%;
+    }
 }
 
 .card h3 {
