@@ -599,6 +599,33 @@ header + img {
     height: auto;
     aspect-ratio: 16 / 9;
 }
+
+#facebook {
+    padding: 20px;
+}
+
+#content_facebook .parts5 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+#content_facebook .parts5 .space10 {
+    flex: 1 1 calc(33.333% - 10px);
+    margin-top: 0;
+}
+
+#content_facebook .parts5 .space10 iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1.5;
+}
+
+@media only screen and (max-width: 768px) {
+    #content_facebook .parts5 .space10 {
+        flex: 1 1 100%;
+    }
+}
 }
 
 @media only screen and (min-width: 1220px) {
