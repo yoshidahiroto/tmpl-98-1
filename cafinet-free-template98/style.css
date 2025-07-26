@@ -11,6 +11,9 @@ body {
 	font-family: 'Noto Sans JP', "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
 	text-align: center;
 	-webkit-text-size-adjust: 100%;
+	background-image: url(images/sea-ocean_00002.jpg);
+	background-attachment: fixed;
+	background-size: cover;
 }
 body p {
 	padding-top: 5px;
